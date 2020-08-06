@@ -1,0 +1,117 @@
+/*
+Developer: Ishan Subhankar
+Date: 06 Aug 2020
+*/
+
+body {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background:url("../images/bg.jpg") repeat center center;
+   
+}
+#container{
+    background-color: rgb(204, 0, 1);
+    width:100%;
+    height:20px;
+   
+}
+#heading-text{
+    align-items: center;
+    padding: 50px;  
+} 
+#heading-text img{
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-holder {
+    min-height: 100vh;
+}
+.bg-cover {
+    background-size: cover !important;
+}
+#button{
+    margin: auto;
+    padding:auto;
+}
+#slider label {
+    position: absolute;
+    width: 20px;
+    margin-left: -10px;
+    text-align: center;
+    margin-top: 20px;
+}
+#slider {
+    width: 100%;
+    height: 25px;
+    margin: 2em auto; 
+    /*outline: 4px solid rgb(210, 216, 221);*/
+	border: 4px solid rgb(210, 216, 221);
+	border-radius: 50px;
+    
+}
+.ui-widget-content{
+    background: url("../images/bar.png") no-repeat !important;
+    color:white;
+	background-size: 100% 100% !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    background:url(../images/picker.png) no-repeat !important;
+    height:2.0em !important;
+}
+.ui-state-default:hover, .ui-widget-content:hover .ui-state-default:hover, .ui-widget-header:hover .ui-state-default:hover{
+ cursor: pointer;
+}
+.ui-widget-content{
+    color: white !important;
+    font-size: small !important;
+    font-weight: bold !important; 
+}
+.btn-tryagain{
+    background-color: rgba(228, 228, 228, 0.479);
+    border-radius: 3.3em;
+    color:white;
+    border: 1px solid white;
+    font-size: medium;
+    font-weight: 700;
+	padding: 0.7rem 2rem;
+	opacity: 0.6;
+}
+.btn{
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+label .ui-widget{
+    color:white;
+}
+.ui-slider-horizontal .ui-slider-handle{
+    top:-1.3em !important;
+}
+#slider label {
+   width: 50px !important;
+   text-align: center !important;   
+}
+.circle{
+    align-content: center;
+    margin: auto; 
+	width: 100%
+}
+.circle:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .circle{
+        width:60px;     
+    }
+}
+@media only screen and (min-width: 600px) {
+    #slider {
+        width: 50%;    
+    }
+}
+
